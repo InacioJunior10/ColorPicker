@@ -35,6 +35,7 @@ h1 {
 .div-content {
   display: flex;
   align-items: center;
+  padding: 2px;
 }
 
 .text-color {
