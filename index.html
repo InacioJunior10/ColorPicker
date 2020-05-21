@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Componente de Edição de Cores</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="content">
+      <h1>Color Picker</h1>
+      <div class="div-content">
+        <div class="text-color">
+          <labe><span style="color: red;">(R) Vermelho:</span></labe>
+        </div>
+        <div class="slidecontainer">
+          <input id="slideR" type="range" min="0" max="255" class="slide" />
+        </div>
+        <div class="div-text-value">
+          <input id="textValueR" type="text" class="text-value" disabled />
+        </div>
+      </div>
+
+      <div class="div-content">
+        <labe class="text-color"
+          ><span style="color: green;">(G) Verde:</span></labe
+        >
+        <div class="slidecontainer">
+          <input id="slideG" type="range" min="0" max="255" class="slide" />
+        </div>
+        <div class="div-text-value">
+          <input id="textValueG" type="text" class="text-value" disabled />
+        </div>
+      </div>
+
+      <div class="div-content">
+        <labe class="text-color"
+          ><span style="color: blue;">(B) Azul:</span></labe
+        >
+        <div class="slidecontainer">
+          <input id="slideB" type="range" min="0" max="255" class="slide" />
+        </div>
+        <div class="div-text-value">
+          <input id="textValueB" type="text" class="text-value" disabled />
+        </div>
+      </div>
+
+      <div class="div-color-content">
+        <div id="divColor" class="div-color"></div>
+        <input type="text" id="hex" class="text-hex" disabled />
+      </div>
+
+      <script src="./js/script.js"></script>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,83 @@
+body {
+  background-color: #ccc;
+}
+
+.content {
+  max-width: 400px;
+  margin: auto;
+  background: white;
+  padding: 10px;
+  margin-top: 50px;
+
+  border-radius: 44px 44px 44px 44px;
+  -moz-border-radius: 44px 44px 44px 44px;
+  -webkit-border-radius: 44px 44px 44px 44px;
+  border: 0px solid #000000;
+
+  -webkit-box-shadow: 14px 13px 21px -4px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 14px 13px 21px -4px rgba(0, 0, 0, 0.6);
+  box-shadow: 14px 13px 21px -4px rgba(0, 0, 0, 0.6);
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  line-height: 2.2em;
+}
+
+.div-main {
+  width: 400px;
+  border: solid 1px;
+}
+
+.div-content {
+  display: flex;
+  align-items: center;
+}
+
+.text-color {
+  font-weight: bold;
+  width: 120px;
+}
+
+.slidecontainer {
+  width: 180px;
+}
+
+.slide {
+  width: 100%;
+}
+
+.div-text-value {
+  margin-left: 10px;
+}
+
+.text-value {
+  width: 80px;
+  text-align: center;
+  /* pointer-events: none; */
+}
+
+.div-color-content {
+  display: block;
+  width: 100%;
+}
+
+.div-color {
+  width: 120px;
+  height: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border: 1px solid #ccc;
+}
+
+.text-hex {
+  width: 118px;
+  display: block;
+  margin-top: 2px;
+  margin-right: auto;
+  margin-left: auto;
+}
